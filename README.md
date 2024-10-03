@@ -17,3 +17,10 @@ and runs plot_obs_loc_cpt.py .
 
 **plot_obs_loc_cpt.py** is a modified version of plot_obs_loc.py that avoid an error in processing AMSU observations.
 
+NOTE: before to run the run_plot_obs.sh , make a link of the files you want to plot. Ex.:
+
+`ln -s ../obs_ioda/2018041500/*2018041500.h5 .`
+
+Then, run:
+
+`./run_plot_obs.sh 2018041500`
